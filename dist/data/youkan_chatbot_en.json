@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Is anyone there?",
+        "Hi there",
+        "Hello there"
+      ],
+      "responses": [
+        "Hey 😊",
+        "Hello! Welcome to our store",
+        "Hi there, how can I assist you today?",
+        "Hi, feel free to ask me anything about your order or our products!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Thanks, bye"
+      ],
+      "responses": [
+        "Goodbye! 👋",
+        "Thanks for visiting, see you soon!",
+        "Have a great day!",
+        "Take care and see you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help 😊",
+        "Anytime!",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you sell?",
+        "Which items are available?",
+        "What products are in your store?",
+        "What kind of items do you have?",
+        "Show me what you're selling"
+      ],
+      "responses": [
+        "We offer a wide range of products. Could you tell me what you're looking for?",
+        "We sell various items! You can check the categories on the homepage.",
+        "Our products vary depending on the store. You can explore the main menu to find your favorite items."
+      ]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "Is this item available?",
+        "Do you have this in stock?",
+        "Is this product still available?",
+        "Can I order this now?"
+      ],
+      "responses": [
+        "If it's visible on the website, it's likely available! But let me know which product you mean.",
+        "Most items are in stock unless marked otherwise.",
+        "Yes, we regularly update availability. Feel free to proceed with your order!"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much is this?",
+        "What's the price?",
+        "Can you tell me the cost?",
+        "Is there a discount?",
+        "Is this on sale?"
+      ],
+      "responses": [
+        "You can find the price right below the product image.",
+        "If there's a promotion, you'll see the discounted price in red.",
+        "Let me know which product you're interested in and I'll guide you!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How can I pay?",
+        "Do you accept cards?",
+        "Do you accept Paypal?",
+        "Is payment online?",
+        "What are the payment methods?"
+      ],
+      "responses": [
+        "We currently accept **Cash on Delivery (COD)** only.",
+        "You can pay with cash when the order is delivered to your home.",
+        "No online payment is needed. Just place your order and pay when it arrives!"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will I receive my order?",
+        "What are your delivery times?",
+        "Do you offer fast shipping?",
+        "How soon do you deliver?"
+      ],
+      "responses": [
+        "Delivery usually takes between 2 to 5 business days depending on your location.",
+        "You should receive your order within a few days after confirmation.",
+        "Shipping time varies by area, but we try our best to deliver as fast as possible!"
+      ]
+    },
+    {
+      "tag": "delivery_fees",
+      "patterns": [
+        "How much is shipping?",
+        "Is delivery free?",
+        "Do I have to pay for shipping?",
+        "What are the delivery charges?"
+      ],
+      "responses": [
+        "Delivery fees depend on your location. The exact amount will be shown at checkout.",
+        "Some areas may qualify for free delivery—check your cart for details.",
+        "You’ll see the delivery cost before confirming your order."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "Can I return a product?",
+        "What is your return policy?",
+        "How do I make a return?",
+        "Do you offer exchanges?"
+      ],
+      "responses": [
+        "Returns are accepted if the product is defective or incorrect. Please contact support.",
+        "We have a return policy in place—just message us and we’ll help you!",
+        "Exchanges or returns are available under certain conditions. Let us know your issue!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status",
+        "Has my order shipped?",
+        "Did my order go through?"
+      ],
+      "responses": [
+        "If you created an account, you can track your order under 'My Orders'.",
+        "Please provide your order number and I’ll check it for you.",
+        "We’ll notify you via SMS or email once your order is on the way!"
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your working hours?",
+        "When are you open?",
+        "Are you open on weekends?"
+      ],
+      "responses": [
+        "Our online store is open 24/7! You can place an order anytime.",
+        "We're always here online, feel free to shop whenever you'd like!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "Do you have customer service?",
+        "Can I talk to a human?",
+        "Is there someone I can speak with?"
+      ],
+      "responses": [
+        "You can reach out to our support team via WhatsApp, Messenger, or our contact page.",
+        "Our customer service is available to assist you—check the Contact section for options.",
+        "Let me know your issue and I’ll try to help, or I’ll connect you with support."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where do you ship from?"
+      ],
+      "responses": [
+        "We're an online store, but we ship from local warehouses in your region.",
+        "Our products are shipped from nearby suppliers to ensure fast delivery.",
+        "We deliver across the country from our logistics partners' locations."
+      ]
+    }
+  ]
+}
