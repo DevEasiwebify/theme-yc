@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Hey",
+        "Quelqu'un est là ?",
+        "Bonne journée"
+      ],
+      "responses": [
+        "Salut 😊",
+        "Bonjour ! Bienvenue dans notre boutique",
+        "Bonjour, comment puis-je vous aider aujourd'hui ?",
+        "N'hésitez pas à me poser vos questions !"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Au revoir",
+        "À bientôt",
+        "Bye",
+        "Merci, au revoir"
+      ],
+      "responses": [
+        "Au revoir ! 👋",
+        "Merci de votre visite, à très bientôt !",
+        "Bonne journée !",
+        "Prenez soin de vous et à la prochaine !"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "C'est utile",
+        "Je vous remercie"
+      ],
+      "responses": [
+        "Avec plaisir !",
+        "Ravi de vous aider 😊",
+        "N'importe quand !",
+        "Je suis là pour ça !"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Que vendez-vous ?",
+        "Quels articles avez-vous ?",
+        "Quels produits proposez-vous ?",
+        "Montrez-moi ce que vous vendez"
+      ],
+      "responses": [
+        "Nous proposons une large gamme de produits. Que cherchez-vous ?",
+        "Vous pouvez consulter les catégories sur la page d'accueil.",
+        "Nos produits varient selon la boutique. Explorez le menu principal !"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Quels sont les moyens de paiement ?",
+        "Acceptez-vous les cartes ?",
+        "Puis-je payer en ligne ?",
+        "Comment payer ?"
+      ],
+      "responses": [
+        "Nous acceptons uniquement le paiement à la livraison (Cash on Delivery).",
+        "Payez en espèces à la réception de votre commande.",
+        "Aucun paiement en ligne requis. Commandez et payez à la livraison !"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Combien de temps dure la livraison ?",
+        "Quand vais-je recevoir ma commande ?",
+        "Quel est le délai de livraison ?"
+      ],
+      "responses": [
+        "La livraison prend généralement entre 2 et 5 jours ouvrables.",
+        "Vous recevrez votre commande quelques jours après confirmation.",
+        "Le délai dépend de votre emplacement, mais nous livrons rapidement !"
+      ]
+    }
+  ]
+}
